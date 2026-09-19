@@ -20,3 +20,4 @@ Aşağıda operasyon ve pazarlama ekipleri için tasarlanan interaktif panelin b
 ## 💼 Stratejik İş Aksiyonları
 1. **Lojistik:** Yüksek maliyetli kargolar hızlı teslim edilirken, orta segment ücretlerde (25-75 BRL) 60 güne varan gecikmeler tespit edilmiştir. Sorun mesafede değil, standart kargo ağının kapasitesindedir. RJ ve BA eyaletlerine "fulfillment center" (bölgesel depo) açılması önerilmiştir.
 2. **CRM & Pazarlama:** Toplam cironun çok büyük bir kısmını oluşturan Küme 2 (VIP/Balinalar) segmentine yönelik özel "sadakat programı" tasarlanmalı ve doğrudan bu kitleye kampanya çıkılmalıdır.
+3. Ham CSV verileri, güvenlik standartlarına uygun şekilde (environment variables kullanılarak) Python SQLAlchemy ve Psycopg2 kütüphaneleri ile yerel PostgreSQL veritabanına aktarılarak (ETL süreci) analitik bir Veri Mart'ı inşa edilmiştir.
